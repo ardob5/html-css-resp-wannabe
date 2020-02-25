@@ -65,3 +65,61 @@ img{
 .clear {
   clear:both;
 }
+
+@media screen and (max-width:419px) {
+
+  h1 {
+    font-size: 6em;
+    margin-top: 0;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  #lezioni .row {
+    background-color: lightgrey;
+  }
+
+
+  #lezioni .row > .left, #lezioni .row > .right {
+    padding: 30px 0;
+    float: none;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    font-size: 3em;
+  }
+
+  img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #steps .row > .left,  #steps .row > .central, #steps .row > .right{
+    float: left;
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+    font-size: 3em;
+  }
+
+  #why .row > .first, #why .row > .second,  #why .row > .third {
+    padding: 30px 0;
+    float: none;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    font-size: 3em;
+  }
+
+  .row {
+    background-color: lightgrey;
+    margin: 0;
+    margin-top: 0;
+  }
+  .container.grey {
+    background-color: lightgrey;
+  }
+}
